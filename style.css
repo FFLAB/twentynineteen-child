@@ -1,0 +1,42 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Template: twentynineteen
+Author: Francesco Riggio
+Author URI: https://fflab.info
+Description: Parent Theme: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes. My child theme: testing new features
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 0.1.1562775905
+Updated: 2019-07-10 16:25:05
+
+*/
+
+/*
+ * Content full width correction
+ https://benjaminintal.com/2018/12/11/how-to-make-twenty-nineteens-content-full-width/
+it needs also !important
+ */
+/* for pages 
+body.page .entry .entry-content > *,
+.entry .entry-summary > * {
+    max-width:none !important;
+}
+*/
+/* for posts
+body.single-post .entry .entry-content > * {
+    max-width: none !important;
+}
+ */
+/* all */
+body .entry .entry-content > * {
+    max-width: none !important;
+}
+
+/*GFonts*/
+.author-description .author-link, .comment-metadata, .comment-reply-link, .comments-title, .comment-author .fn, .discussion-meta-info, .entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, .pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
