@@ -7,7 +7,6 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 //my add for GFonts
 function fflab_add_google_fonts() {
- 
 wp_enqueue_style( 'fflab-google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap', false ); 
 }
  
