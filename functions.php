@@ -5,7 +5,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // BEGIN ENQUEUE PARENT ACTION
 // AUTO GENERATED - Do not modify or remove comment markers above or below:
 
-//my add for GFonts
+//My add for GFonts
 function fflab_add_google_fonts() {
 wp_enqueue_style( 'fflab-google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap', false ); 
 }
